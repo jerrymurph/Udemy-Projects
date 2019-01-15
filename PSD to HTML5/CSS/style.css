@@ -112,6 +112,9 @@ ol li {
     max-width: 1120px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    padding: 40px 20px;
 }
 
 body {
@@ -126,6 +129,18 @@ h1 {font-size: 2rem;}
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+#hero h2 {
+   color: white; 
+}
+
+.hero-paragraph {
+    font-size: 36px;
+    line-height: 40px;
+    font-family: 'HelveticaNeue-Thin';
+    color: white;
+    margin-bottom: 55px;
 }
 
 h2 {
@@ -150,4 +165,88 @@ h2 {
 .nav li a:hover {
     border-bottom: 4px solid white;
     transition: border-bottom 0.2s, color 0.2s;
+}
+
+.cta {
+    display:inline-block;
+    margin-top: 90px;
+    position: relative;
+}
+
+.cta-info {
+    width: 60%;
+    padding-right: 150px;
+    float: left;
+}
+
+.cta-btn {
+    padding: 23px 35px;
+    background: #282828;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.cta-btn:hover {
+    background: #383737;
+    transition: 0.3s;
+}
+
+.imgs {
+    float: right;
+    position: absolute;
+    right: -135px;
+}
+
+.iphone {
+    width: 85%;
+    position: relative;
+    margin-bottom: -220px;
+}
+
+.phone-icon {
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+/* APP FEATURES */
+
+#app-features .container {
+    text-align: center;
+    padding: 60px 20px;
+
+}
+
+#app-features h2 {
+    color: #8a8a8a;
+}
+
+.p-features {
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 130px;
+}
+.row {
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.row h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.col-4-app {
+    width: 33.33%;
+    float: left;
+    padding: 0 45px;
+}
+
+.col-4-app p {
+    font-family: 'HelveticaNeue-Thin';
+    font-size: 18px;
+    line-height: 24px;
+    color: #8a8a8a;
 }
