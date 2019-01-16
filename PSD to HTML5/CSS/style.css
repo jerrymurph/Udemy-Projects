@@ -250,3 +250,104 @@ h2 {
     line-height: 24px;
     color: #8a8a8a;
 }
+
+#nose {
+    background: url('../img/nose.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.download-info {
+    width: 50%;
+    padding: 200px 0;
+}
+#nose h2 {
+    color: white;
+}
+
+#nose p {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'HelveticaNeue-Thin';
+    padding-bottom: 36px;
+}
+
+.download-btn {
+    padding: 15px;
+    background: #d9332d;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    background: #c33934;
+    transition: 0.3s
+}
+
+.reddish {
+    color: #f55150;
+}
+
+/* FOOTER */
+
+footer {
+    background: #2e2e38;
+}
+footer .container {
+    padding: 120px 20px;
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
+footer p {
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.ul-posts li{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    padding-left: 70px;
+}
+
+.col-4-footer {
+    width: 33.33%;
+    float: left;
+    margin-top: 75px;
+    color: white;
+    padding: 30px;
+}
+
+.ul-posts,
+.ul-tweets {
+    margin-top: 25px;
+    font-family: 'HelveticaNeue-Thin';
+}
+
+.reddish-bg {
+    background: url('../img/square.png') no-repeat;
+}
+
+.block {
+    display: block;
+}
+
+.p-about {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+.ul-tweets li {
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+.small-text {
+    font-size: 11px;
+    margin-top: 5px;
+}
